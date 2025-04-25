@@ -1,6 +1,7 @@
 # Applications of Differential Equations
-
+---
 This repository presents a study on real-world applications of differential equations, completed as part of a B.Sc. Mathematics project.
+---
 
 ## Project Overview
 
@@ -14,36 +15,11 @@ Explains how Newton’s laws and central force systems describe satellite orbits
 
 ### 3. Tacoma Narrows Bridge Collapse
 A real-world example of mechanical resonance and forced vibrations modeled through differential equations. Describes how vortex shedding and aeroelastic instability led to the failure.
-
-## Repository Structure
-
-```
-differential-equation-applications/
-│
-├── THEORY.md      # Detailed theory and derivations
-├── README.md      # Project overview and GitHub description
-```
-
-## Authors
-
-- Aysha N.C
-- Aysha Jesin V.K
-- Rumana Thanzil T
-- Shahma C.P
-- Jauhara Almas T
-- Farha Shahul P.V
-- Ajisha Shirin E
-
-## Institution
-
-Sixth Semester B.Sc. Mathematics  
-Farook College, Kozhikode, Kerala, India
+---
 
 ## Guide
 
 Dr. K. Sudheer  
 Department of Mathematics, Farook College
 
-## License
-
-This project is intended for educational purposes.
+---
