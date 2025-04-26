@@ -53,7 +53,7 @@ Differential equations are essential in describing rates of change and form the 
 <summary>Click to Expand</summary>
 
 - **Variable Separable Method:**  
-  Rearrange into \( f(x)dx + g(y)dy = 0 \) and integrate separately.
+  Rearrange into $\( f(x)dx + g(y)dy = 0 \)$ and integrate separately.
   
 - **Homogeneous Differential Equations:**  
   Restructure using substitution if the functions are of the same degree.
