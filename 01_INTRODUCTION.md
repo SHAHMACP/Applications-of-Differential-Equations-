@@ -59,7 +59,7 @@ Differential equations are essential in describing rates of change and form the 
   Restructure using substitution if the functions are of the same degree.
 
 - **First-Order Linear Differential Equations:**  
-  Of the form \( \frac{dy}{dx} + P(x)y = Q(x) \), solved using an integrating factor.
+  Of the form $\( \frac{dy}{dx} + P(x)y = Q(x) \)$, solved using an integrating factor.
 
 </details>
 
