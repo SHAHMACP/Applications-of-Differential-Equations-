@@ -160,6 +160,7 @@ $$
 
 
 Thus, we should have a **center**, not a spiral, at the equilibrium point:
+
 $$
 \left( \frac{c}{\gamma}, \frac{a}{\alpha} \right)
 $$
