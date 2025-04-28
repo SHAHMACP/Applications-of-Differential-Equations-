@@ -132,12 +132,43 @@ One way to resolve this question is by finding an implicit equation that $x$ and
 We find an equation in $x$ and $y$ by dividing the second equation of the system by the first (pretending that $y$ is a function of $x$):
 
 
+## Solving for Trajectories
+
+The differential equation is:
+
 $$
-\frac{dy}{dx} = \frac{g(x, y)}{f(x, y)}
+\frac{dy}{dx} = \frac{y' / x'}{x'} = \frac{y(-c + \gamma x)}{x(a - \alpha y)}
 $$
 
-where:
+This happens to be separable, so we can solve it:
 
-- $f(x, y)$ and $g(x, y)$ are the right-hand sides of the system’s first and second differential equations respectively.
+$$
+\frac{a - \alpha y}{y} \, dy = \frac{-c + \gamma x}{x} \, dx
+$$
+
+The solution is:
+
+$$
+a \ln|y| - \alpha y = -c \ln|x| + \gamma x + k
+$$
+
+Thus (at least for $x > 0$ and $y > 0$, which is the region we are interested in), the trajectories are **level curves** of the function:
+
+$$
+h(x, y) = a \ln y + c \ln x - \alpha y - \gamma x
+$$
+
+
+Thus, we should have a **center**, not a spiral, at the equilibrium point:
+$$
+\left( \frac{c}{\gamma}, \frac{a}{\alpha} \right)
+$$
+
+
+The **isoclines**:
+
+- For $x' = 0$ are $x = 0$ and $y = \frac{a}{\alpha}$ (since $x = 0$ is a vertical line, there are trajectories in it — the two trajectories that enter the equilibrium point $(0,0)$).
+
+- The isoclines for $y' = 0$ are $y = 0$ and $x = \frac{c}{\gamma}$ (again, there are trajectories in the $x$-axis — the two that leave the $(0,0)$ point).
 
 ---
