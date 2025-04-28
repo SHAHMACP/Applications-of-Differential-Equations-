@@ -92,3 +92,52 @@ The eigenvectors are:
 Thus, there will be two trajectories entering the equilibrium point vertically (one up and one down) and two leaving horizontally to the right and left.
 
 ---
+## Stability at the Equilibrium Point
+
+At the equilibrium point:
+
+
+$\left( \frac{c}{\gamma}, \frac{a}{\alpha} \right)$
+
+
+the Jacobian matrix is:
+
+
+$$
+J = \begin{bmatrix}
+0 & -\alpha c / \gamma \\
+\alpha \gamma / \alpha & 0
+\end{bmatrix}
+$$
+
+
+Thus, the eigenvalues are purely imaginary:
+
+
+$$
+\pm \sqrt{\alpha c}i
+$$
+
+In the linearization, this equilibrium point behaves as a **center**, and the solution near the equilibrium point forms **closed curves**.  
+As $t \to \infty$, the trajectories neither approach the equilibrium point nor move away from it.
+
+---
+
+## Nature of the Equilibrium Point
+
+However, this does not tell us whether the equilibrium point in the nonlinear system is a **center** or a **stable/unstable spiral**.
+
+One way to resolve this question is by finding an implicit equation that $x$ and $y$ satisfy.
+
+We find an equation in $x$ and $y$ by dividing the second equation of the system by the first (pretending that $y$ is a function of $x$):
+
+
+$$
+\frac{dy}{dx} = \frac{g(x, y)}{f(x, y)}
+$$
+
+where:
+
+- $f(x, y)$ and $g(x, y)$ are the right-hand sides of the system’s first and second differential equations respectively.
+
+---
