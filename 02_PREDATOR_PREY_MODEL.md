@@ -195,16 +195,16 @@ $$
 
 At $(0,0)$:
 
-\text{Jacobian matrix becomes} \quad \begin{bmatrix} 4 & 0 \\ 0 & -3 \end{bmatrix}
+$$\text{Jacobian matrix becomes} \quad \begin{bmatrix} 4 & 0 \\ 0 & -3 \end{bmatrix}$$
 
 Eigenvalues are $4$ and $-3$, hence $(0,0)$ is an **unstable saddle point**.
 
 At $(1,2)$:
 
-\text{Jacobian matrix is} \quad \begin{bmatrix} 0 & -2 \\ \frac{3}{2} & 0 \end{bmatrix}
+$$\text{Jacobian matrix is} \quad \begin{bmatrix} 0 & -2 \\ \frac{3}{2} & 0 \end{bmatrix}$$
 
 Eigenvalues are:
 
-\pm i \sqrt{12}
+$\pm i \sqrt{12}$
 
 which indicates a **stable center**.
