@@ -173,3 +173,38 @@ The **isoclines**:
 - The isoclines for $y' = 0$ are $y = 0$ and $x = \frac{c}{\gamma}$ (again, there are trajectories in the $x$-axis — the two that leave the $(0,0)$ point).
 
 ---
+
+## Example
+
+The system is:
+
+$$
+x' = 4x - 2xy
+$$
+$$
+y' = -3y + 3xy
+$$
+
+Critical points are $(0,0)$ and $(1,2)$.
+
+The Jacobian matrix is given by:
+
+$$
+J(x, y) = \begin{bmatrix} 4 - 2y & -2x \\ 3y & -3 + 3x \end{bmatrix}
+$$
+
+At $(0,0)$:
+
+\text{Jacobian matrix becomes} \quad \begin{bmatrix} 4 & 0 \\ 0 & -3 \end{bmatrix}
+
+Eigenvalues are $4$ and $-3$, hence $(0,0)$ is an **unstable saddle point**.
+
+At $(1,2)$:
+
+\text{Jacobian matrix is} \quad \begin{bmatrix} 0 & -2 \\ \frac{3}{2} & 0 \end{bmatrix}
+
+Eigenvalues are:
+
+\pm i \sqrt{12}
+
+which indicates a **stable center**.
