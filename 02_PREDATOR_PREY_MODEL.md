@@ -47,3 +47,48 @@ Here:
 Although these are relatively simple equations, they capture the dynamics of a wide class of predator-prey interactions.
 
 ---
+
+Here the system has 2 critical points, one is the origin and the other is in the first quadrant.
+
+$$
+0 = x' = ax - \alpha xy = x(a - \alpha y) \implies x = 0 \quad \text{or} \quad a - \alpha y = 0
+$$
+
+$$
+0 = y' = -cy + \gamma xy = y(-c + \gamma x) \implies y = 0 \quad \text{or} \quad -c + \gamma x = 0
+$$
+
+Therefore, the critical points are $(0,0)$ and $\left( \frac{c}{\gamma}, \frac{a}{\alpha} \right)$.
+
+The corresponding Jacobian matrix is given by:
+
+$$
+J = 
+\begin{bmatrix}
+a - \alpha y & -\alpha x \\
+\gamma y & -c + \gamma x
+\end{bmatrix}
+$$
+
+At $(0,0)$ the linearized system has coefficient matrix:
+
+$$
+A = 
+\begin{bmatrix}
+a & 0 \\
+0 & -c
+\end{bmatrix}
+$$
+
+The eigenvalues are $a$ and $-c$. Hence, it is an **unstable saddle point**.
+
+We would not care about starting with the population at $(0,0)$, the saddle or negative population. 
+
+The eigenvectors are:
+
+- For eigenvalue $a$: $(1,0)$
+- For eigenvalue $-c$: $(0,1)$
+
+Thus, there will be two trajectories entering the equilibrium point vertically (one up and one down) and two leaving horizontally to the right and left.
+
+---
