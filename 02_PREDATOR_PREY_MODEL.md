@@ -3,47 +3,50 @@
 This model captures how two species (predator and prey) interact.
 
 Let:
-- \( x(t) \): Prey population
-- \( y(t) \): Predator population
+-  x(t) \: Prey population
+-  y(t) \: Predator population
 
-### Equations
+---
 
-\[
-\frac{dx}{dt} = ax - bxy \\
-\frac{dy}{dt} = -cy + dxy
-\]
+In constructing a model of the interaction between two species (prey and predator), we make several assumptions:
 
-Where:
-- \( a \): Prey birth rate
-- \( b \): Predation rate
-- \( c \): Predator death rate
-- \( d \): Predator growth from consumption
+1. **Growth of the prey in absence of predator**  
+   In the absence of the predator, the prey population grows at a rate proportional to its current population. That is,  
+   $$
+   \frac{dx}{dt} = x' = ax, $$\quad a > 0 $$
+   $\quad \text{when } y = 0
+   $
 
-### Equilibrium Points
+3. **Decline of the predator in absence of prey**  
+   In the absence of prey, the predator population declines (dies out) at a rate proportional to its current size:  
+   $$
+   \frac{dy}{dt} = y' = -cy, \quad c > 0 \quad \text{when } x = 0
+   $$
 
-Set dx/dt = 0 and dy/dt = 0:
-- (0, 0): Trivial equilibrium (saddle)
-- \( (\frac{c}{d}, \frac{a}{b}) \): Center
+4. **Interaction between predator and prey**  
+   The number of encounters between predator and prey is assumed to be proportional to the product of their populations, $xy$. Each encounter:
+   - **Decreases** the growth rate of the prey by a term $-\alpha xy$
+   - **Increases** the growth rate of the predator by a term $\gamma xy$  
+   where $\alpha, \gamma > 0$ are constants measuring the effect of the interaction.
 
-### Jacobian
+Combining all of the above, we get the **Lotka-Volterra predator-prey model**:
 
-\[
-J = \begin{bmatrix}
-a - by & -bx \\
-dy & -c + dx
-\end{bmatrix}
-\]
+$$
+\frac{dx}{dt} = x' = ax - \alpha xy = x(a - \alpha y)
+$$
 
-At each equilibrium, we compute the eigenvalues to determine stability.
+$$
+\frac{dy}{dt} = y' = -cy + \gamma xy = y(-c + \gamma x)
+$$
 
-### Phase Portrait
+Here:
+- $x(t)$: population of the prey at time $t$
+- $y(t)$: population of the predator at time $t$
+- $a$: natural growth rate of the prey
+- $c$: natural death rate of the predator
+- $\alpha$: predation rate coefficient (effect of predator on prey)
+- $\gamma$: growth rate of predator per prey eaten
 
-The system forms closed orbits near the center equilibrium, indicating periodic behavior.
+Although these are relatively simple equations, they capture the dynamics of a wide class of predator-prey interactions.
 
-### Example
-
-\[
-\frac{dx}{dt} = x(1 - y), \quad \frac{dy}{dt} = y(-1 + x)
-\]
-
-This system stabilizes around an equilibrium and shows predator-prey cycles. Predator peaks lag behind prey peaks.
+---
