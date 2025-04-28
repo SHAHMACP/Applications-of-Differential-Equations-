@@ -12,16 +12,13 @@ In constructing a model of the interaction between two species (prey and predato
 
 1. **Growth of the prey in absence of predator**  
    In the absence of the predator, the prey population grows at a rate proportional to its current population. That is,  
-   $$
-   \frac{dx}{dt} = x' = ax, $$\quad a > 0 $$
-   $\quad \text{when } y = 0
-   $
+   $\frac{dx}{dt} = x' = ax, a > 0 
+   \quad \text{when } y = 0$
+   
 
 3. **Decline of the predator in absence of prey**  
    In the absence of prey, the predator population declines (dies out) at a rate proportional to its current size:  
-   $$
-   \frac{dy}{dt} = y' = -cy, \quad c > 0 \quad \text{when } x = 0
-   $$
+   $\frac{dy}{dt} = y' = -cy, \quad c > 0 \quad \text{when } x = 0$
 
 4. **Interaction between predator and prey**  
    The number of encounters between predator and prey is assumed to be proportional to the product of their populations, $xy$. Each encounter:
