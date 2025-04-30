@@ -2,6 +2,8 @@
 
 # Tacoma Bridge Disaster
 
+![image](https://github.com/user-attachments/assets/d022fb5d-7684-45d3-a6d1-20a6635c07e0)
+
 The first Tacoma Narrows Bridge was a suspension bridge in Washington that spanned the Tacoma Narrows Strait of Puget Sound between Tacoma and the Kitsap Peninsula. It opened to traffic on **July 1, 1940**, and collapsed into Puget Sound on **November 7** of the same year.
 
 [Tacoma Narrows Bridge Collapse](https://youtu.be/XggxeuFDaDU)
@@ -9,6 +11,7 @@ The first Tacoma Narrows Bridge was a suspension bridge in Washington that spann
 From the day of its opening, the bridge began undergoing vertical oscillations and earned the nickname **"Galloping Gertie."** People came from hundreds of miles away to experience the curious thrill of riding over the rolling bridge. As each day passed, the authorities in charge grew more confident about the bridge’s safety, even considering canceling its insurance policy.
 
 On November 7, the entire bridge came crashing down. Fortunately, only one car was on the bridge at the time — belonging to a newspaper reporter who abandoned the car and his pet when the bridge began its violent twisting motion. The reporter reached safety, but his dog remained inside the car and was the only life lost in the disaster.
+![image](https://github.com/user-attachments/assets/e7e99f73-f4cc-4c96-982c-810cba4acd8e)
 
 ---
 
@@ -47,14 +50,16 @@ The collapse of the Tacoma Bridge was due to an **aerodynamic phenomenon** known
 
 **Stall flutter** is an **aeroelastic instability** that can affect several systems, such as helicopter blades and wind turbine blades. It leads to **limit cycle oscillations**, causing significant vibration amplitudes, efficiency drops, control difficulties, reduced fatigue life, and sometimes failure.
 
-**Figure 3:** Stall Flutter
+![image](https://github.com/user-attachments/assets/e1423da4-7cb6-48d0-b7ec-4eacb3dac68b)
+
 
 This can be explained briefly:
 
 - When there is an obstacle in a stream of air (or liquid), a **vortex street** is formed behind the obstacle.
 - A **vortex street** refers to a regular sequence of vortices carried downstream by the fluid flow over a body.
 
-**Figure 4:** Vortex Street
+![image](https://github.com/user-attachments/assets/7559c76d-eb99-4b32-9c93-711f06c88bee)
+
 
 Due to the vortices alternately separating from either side of the obstacle, it experiences a **periodic force** perpendicular to the direction of the stream:
 
@@ -84,7 +89,8 @@ Resonance effects have been observed elsewhere:
 
 - **Steel factory chimneys** and **submarine periscopes** experience similar vortex-induced vibrations.
 - The **Broughton Suspension Bridge** (Manchester, England, 1831) collapsed due to mechanical resonance caused by soldiers marching in step across the bridge.  
-  ➔ Soldiers are now ordered to **break step** when crossing bridges to prevent resonance.
+  ➔ Soldiers are now ordered to **break step** when crossing bridges to prevent resonance. ![image](https://github.com/user-attachments/assets/da54cdc2-7f0d-4337-b5e7-58b8af7f66ef)
+
 - **The Angers Bridge** (France, 1850) collapsed while a battalion of French soldiers crossed during a storm. The wind caused oscillations, and the soldiers' involuntary synchrony amplified the vibrations, leading to collapse.
 
 Similarly, the **London Millennium Bridge** (2000) experienced swaying due to pedestrians inadvertently stepping in rhythm with the bridge's oscillations.
