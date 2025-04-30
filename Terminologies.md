@@ -3,16 +3,9 @@
 - **Jacobian matrix and eigenvalues:**  
   The stability of typical equilibria of smooth ordinary differential equations is determined by the **eigenvalues of the Jacobian matrix**. These eigenvalues are often referred to as the *eigenvalues of the equilibrium*.  
   The Jacobian matrix of a system of smooth ODEs is the matrix of partial derivatives of the right-hand side with respect to state variables:
+![image](https://github.com/user-attachments/assets/0d54a5b7-bf2d-4bbf-90a6-24e9380aae33)
 
 
-  $$
-  J = D_x f = f_x = \frac{\partial f_i}{\partial x_i} =
-  \begin{pmatrix}
-  \frac{\partial f_1}{\partial x_1} & \cdots & \frac{\partial f_1}{\partial x_n} \\\\
-  \vdots & \ddots & \vdots \\\\
-  \frac{\partial f_n}{\partial x_1} & \cdots & \frac{\partial f_n}{\partial x_n}
-  \end{pmatrix}
-  $$
 
   All derivatives are evaluated at the equilibrium point $x = x_0$.  
   Its eigenvalues determine **linear stability properties** of the equilibrium.
