@@ -4,8 +4,7 @@
 
 The first Tacoma Narrows Bridge was a suspension bridge in Washington that spanned the Tacoma Narrows Strait of Puget Sound between Tacoma and the Kitsap Peninsula. It opened to traffic on **July 1, 1940**, and collapsed into Puget Sound on **November 7** of the same year.
 
-**Figure 1:** Tacoma Narrows Bridge  
-**Figure 2:** Tacoma Narrows Bridge Collapse
+[Tacoma Narrows Bridge Collapse](https://youtu.be/XggxeuFDaDU)
 
 From the day of its opening, the bridge began undergoing vertical oscillations and earned the nickname **"Galloping Gertie."** People came from hundreds of miles away to experience the curious thrill of riding over the rolling bridge. As each day passed, the authorities in charge grew more confident about the bridge’s safety, even considering canceling its insurance policy.
 
