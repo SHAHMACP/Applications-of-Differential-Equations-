@@ -136,7 +136,7 @@ we get:
 
 
 $$
-\mathbf{V} = \frac{dr}{dt} \mathbf{L} + r \frac{d\theta}{dt} \mathbf{M}     \tag{2}
+\mathbf{V} = \frac{dr}{dt} \mathbf{L} + r \frac{d\theta}{dt} \mathbf{M}
 $$
 
 
@@ -150,7 +150,9 @@ is the transverse component.
 
 ---
 
-Differentiating Eq. (2), we get the acceleration \( \mathbf{A} \):
+Differentiating the above equation, we get the acceleration 
+$\mathbf{A}$ 
+:
 
 ```math
 \mathbf{A} = \frac{d\mathbf{V}}{dt} = \frac{dr}{dt} \frac{d\mathbf{L}}{dt} + \frac{d^2 r}{dt^2} \mathbf{L} + \left( r \frac{d\theta}{dt} \right) \frac{d\mathbf{M}}{dt} + \left( r \frac{d^2 \theta}{dt^2} + \frac{dr}{dt} \frac{d\theta}{dt} \right) \mathbf{M}
@@ -166,7 +168,10 @@ Since
 Substituting back, we obtain:
 
 ```math
-\mathbf{A} = \left[ \frac{d^2 r}{dt^2} - r \left( \frac{d\theta}{dt} \right)^2 \right] \mathbf{L} + \left[ r \frac{d^2 \theta}{dt^2} + 2 \frac{dr}{dt} \frac{d\theta}{dt} \right] \mathbf{M} \tag{3}
+\mathbf{A} = \left[ \frac{d^2 r}{dt^2} - r \left( \frac{d\theta}{dt} \right)^2 \right] \mathbf{L} + \left[ r \frac{d^2 \theta}{dt^2} + 2 \frac{dr}{dt} \frac{d\theta}{dt} \right] \mathbf{M} 
 ```
+
+In Eq. (3), the scalar coefficient of L is the radial component and the scalar coefficient of M is the transverse component of acceleration A.
+(If we take the Cartesian coordinates instead of polar coordinates, we have tangential and normal components of velocity and acceleration.)
 
 
