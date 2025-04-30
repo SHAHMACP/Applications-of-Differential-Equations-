@@ -64,7 +64,7 @@ $$
 \mathbf{R} \times \mathbf{F} = \mathbf{R} \times \frac{d}{dt}(m\mathbf{V})
 $$
 
-We now consider the case where the force F always acts towards (or away from) the origin O (Fig. 2). A force system of this type is called a central force system. Since, R×F=0, 
+We now consider the case where the force F always acts towards (or away from) the origin O (Fig. 2). A force system of this type is called a central force system. Since R×F=0, 
 
 $$\mathbf{R} \times \frac{d}{dt}(m\mathbf{V})=0$$
 
@@ -72,20 +72,49 @@ $$\mathbf{R} \times \frac{d}{dt}(m\mathbf{V})=0$$
 
 
 From Eq. (1), and hence  
+
 $$
 \mathbf{R} \times m\mathbf{V} = \text{constant} = m\mathbf{H}
 $$
 
-The vector \( m\mathbf{V} \) is the linear momentum of the particle and the vector \( m\mathbf{H} \) is the angular momentum of the particle about the origin. If \( \mathbf{H} = 0 \), then \( \mathbf{R} \) and \( \mathbf{V} \) are parallel and the path of the particle passes through the origin. Otherwise, since \( \mathbf{R} \) and \( \mathbf{V} \) are perpendicular to \( \mathbf{H} \), the path or the orbit of the particle lies in a plane perpendicular to \( \mathbf{H} \).
 
-We now find the velocity \( \mathbf{V} \) and acceleration \( \mathbf{A} \) in polar coordinates. We write the position vector \( \mathbf{R} = r\mathbf{L} \), where  
+The vector 
+$\ m\mathbf{V}\ $
+is the linear momentum of the particle, and the vector 
+$\ m\mathbf{H} \$ 
+is the angular momentum of the particle about the origin. If 
+$\ \mathbf{H} = 0 \$
+, then 
+$\ \mathbf{R} \$ 
+and 
+$\ \mathbf{V} \$ 
+are parallel and the path of the particle passes through the origin. Otherwise, since 
+$\ \mathbf{R} \$
+and 
+$\ \mathbf{V} \$
+are perpendicular to 
+$\ \mathbf{H} \$
+, the path or the orbit of the particle lies in a plane perpendicular to 
+$\mathbf{H} \$.
+
+We now find the velocity 
+$\ \mathbf{V} \$ 
+and acceleration 
+$\ \mathbf{A} \$ 
+in polar coordinates. We write the position vector 
+$\ \mathbf{R} = r\mathbf{L} \$
+, where  
+
 $$
 \mathbf{L} = \cos\theta \, \mathbf{i} + \sin\theta \, \mathbf{j}
-$$  
+$$ 
+
 is the radial unit vector. Then  
+
 $$
 \frac{d\mathbf{L}}{d\theta} = (-\sin\theta) \, \mathbf{i} + \cos\theta \, \mathbf{j} = \mathbf{M}
 $$  
-is the transverse unit vector (see Fig. 3).
+ 
+ is the transverse unit vector (see Fig. 3).
 
 
