@@ -118,6 +118,55 @@ $$
  
  is the transverse unit vector (see Fig. 3).
  
-![image](https://github.com/user-attachments/assets/887edac7-f4d6-4740-9bbb-d86ff752544a)
+![image](https://github.com/user-attachments/assets/887edac7-f4d6-4740-9bbb-d86ff752544a)  Radial and transverse unit vectors. 
+
+
+
+The velocity is given by:
+
+```math
+\mathbf{V} = \frac{d\mathbf{R}}{dt} = \frac{dr}{dt} \mathbf{L} + r \frac{d\mathbf{L}}{dt} = \frac{dr}{dt} \mathbf{L} + r \frac{d\theta}{dt} \frac{d\mathbf{L}}{d\theta}
+```
+
+Since  
+```math
+\frac{d\mathbf{L}}{d\theta} = \mathbf{M},
+```  
+we get:
+
+
+$$
+\mathbf{V} = \frac{dr}{dt} \mathbf{L} + r \frac{d\theta}{dt} \mathbf{M}     \tag{2}
+$$
+
+
+The scalar 
+$\ \frac{dr}{dt} \$ 
+is the radial component of 
+$\ \mathbf{V} \$
+, and the scalar 
+$\ r \left(\frac{d\theta}{dt}\right) \$
+is the transverse component.
+
+---
+
+Differentiating Eq. (2), we get the acceleration \( \mathbf{A} \):
+
+```math
+\mathbf{A} = \frac{d\mathbf{V}}{dt} = \frac{dr}{dt} \frac{d\mathbf{L}}{dt} + \frac{d^2 r}{dt^2} \mathbf{L} + \left( r \frac{d\theta}{dt} \right) \frac{d\mathbf{M}}{dt} + \left( r \frac{d^2 \theta}{dt^2} + \frac{dr}{dt} \frac{d\theta}{dt} \right) \mathbf{M}
+```
+
+Since
+
+```math
+\frac{d\mathbf{L}}{dt} = \frac{d\mathbf{L}}{d\theta} \frac{d\theta}{dt} = \frac{d\theta}{dt} \mathbf{M}, \quad
+\frac{d\mathbf{M}}{dt} = \frac{d\mathbf{M}}{d\theta} \frac{d\theta}{dt} = \frac{d\theta}{dt} (-\mathbf{L})
+```
+
+Substituting back, we obtain:
+
+```math
+\mathbf{A} = \left[ \frac{d^2 r}{dt^2} - r \left( \frac{d\theta}{dt} \right)^2 \right] \mathbf{L} + \left[ r \frac{d^2 \theta}{dt^2} + 2 \frac{dr}{dt} \frac{d\theta}{dt} \right] \mathbf{M} \tag{3}
+```
 
 
