@@ -2,7 +2,7 @@
 
 In **astrodynamics**, an orbit equation defines the path of an orbiting body $m_2$ around a central body $m_1$ (relative to $m_1$), without specifying position as a function of time, under standard assumptions.
 
-A body moving under the influence of a force directed toward a central body — with a magnitude **inversely proportional to the square of the distance** between them (e.g., gravity) — follows an **orbit** that is a **conic section**:  
+A body moving under the influence of a force directed toward a central body, with a magnitude **inversely proportional to the square of the distance** between them (e.g., gravity) — follows an **orbit** that is a **conic section**:  
 - Circular  
 - Elliptical  
 - Parabolic  
@@ -47,7 +47,7 @@ We will also **derive mathematical equations** to describe satellite motion and 
 ---
 
 ## 🌌 Central Force System, Newton's Law of Gravitation, and Kepler’s Laws of Planetary Motion
-![image](https://github.com/user-attachments/assets/78d11813-9602-424f-a566-e0a05d8dac64)
+![image](https://github.com/user-attachments/assets/78d11813-9602-424f-a566-e0a05d8dac64) A fore F is acting on particle of mass m
 
 In the Figure, the particle of mass $m$ has **position vector** $\mathbf{R}$ and is acted upon by a force $\mathbf{F}$.  
 By **Newton’s Second Law**, we have:
@@ -68,7 +68,8 @@ We now consider the case where the force F always acts towards (or away from) th
 
 $$\mathbf{R} \times \frac{d}{dt}(m\mathbf{V})=0$$
 
-![image](https://github.com/user-attachments/assets/aab8ffe4-be06-479b-9ca2-7b8b234d8232)  Force F is acting towards (or away from) a fixed point O- central force system.
+![image](https://github.com/user-attachments/assets/aab8ffe4-be06-479b-9ca2-7b8b234d8232)  
+Force F is acting towards (or away from) a fixed point O in- central force system.
 
 
 From Eq. (1), and hence  
@@ -116,5 +117,7 @@ $$
 $$  
  
  is the transverse unit vector (see Fig. 3).
+ 
+![image](https://github.com/user-attachments/assets/887edac7-f4d6-4740-9bbb-d86ff752544a)
 
 
