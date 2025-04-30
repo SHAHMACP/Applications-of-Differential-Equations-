@@ -90,6 +90,7 @@ The eigenvectors are:
 - For eigenvalue $-c$: $(0,1)$
 
 Thus, there will be two trajectories entering the equilibrium point vertically (one up and one down) and two leaving horizontally to the right and left.
+![image](https://github.com/user-attachments/assets/0feee47b-e228-4764-9109-33e831fbd2d2)
 
 ---
 ## Stability at the Equilibrium Point
@@ -100,7 +101,7 @@ At the equilibrium point:
 $\left( \frac{c}{\gamma}, \frac{a}{\alpha} \right)$
 
 
-the Jacobian matrix is:
+The Jacobian matrix is:
 
 
 $$
@@ -137,7 +138,7 @@ We find an equation in $x$ and $y$ by dividing the second equation of the system
 The differential equation is:
 
 $$
-\frac{dy}{dx} = \frac{y' / x'}{x'} = \frac{y(-c + \gamma x)}{x(a - \alpha y)}
+\frac{dy}{dx} = \frac{y'}{x'} = \frac{y(-c + \gamma x)}{x(a - \alpha y)}
 $$
 
 This happens to be separable, so we can solve it:
@@ -171,6 +172,7 @@ The **isoclines**:
 - For $x' = 0$ are $x = 0$ and $y = \frac{a}{\alpha}$ (since $x = 0$ is a vertical line, there are trajectories in it — the two trajectories that enter the equilibrium point $(0,0)$).
 
 - The isoclines for $y' = 0$ are $y = 0$ and $x = \frac{c}{\gamma}$ (again, there are trajectories in the $x$-axis — the two that leave the $(0,0)$ point).
+![image](https://github.com/user-attachments/assets/09ddc397-5d63-4210-904e-7ccb8b57b79b)
 
 ---
 
@@ -185,26 +187,54 @@ $$
 y' = -3y + 3xy
 $$
 
+![image](https://github.com/user-attachments/assets/484b5203-f61f-443d-be6b-e41c9b189c4b)
+
+
 Critical points are $(0,0)$ and $(1,2)$.
 
 The Jacobian matrix is given by:
 
 $$
-J(x, y) = \begin{bmatrix} 4 - 2y & -2x \\ 3y & -3 + 3x \end{bmatrix}
+J(x, y) = \begin{bmatrix}
+4-2y & -2x \\
+3y & -3+3x
+\end{bmatrix}
 $$
+
 
 At $(0,0)$:
 
-$$\text{Jacobian matrix becomes} \quad \begin{bmatrix} 4 & 0 \\ 0 & -3 \end{bmatrix}$$
+$$\text{Jacobian matrix becomes} \quad 
+\begin{bmatrix} 
+4 & 0 \\ 
+0 & -3 
+\end{bmatrix}$$
 
 Eigenvalues are $4$ and $-3$, hence $(0,0)$ is an **unstable saddle point**.
 
 At $(1,2)$:
 
-$$\text{Jacobian matrix is} \quad \begin{bmatrix} 0 & -2 \\ \frac{3}{2} & 0 \end{bmatrix}$$
+$$\text{Jacobian matrix is} \quad 
+\begin{bmatrix} 
+0 & -2 \\ 
+\frac{3}{2} & 0 
+\end{bmatrix}$$
 
 Eigenvalues are:
 
 $\pm i \sqrt{12}$
 
 which indicates a **stable center**.
+
+To see both critical points, saddle and centre,
+![image](https://github.com/user-attachments/assets/b80af8b0-bbcd-4810-a344-557e77f850a7)
+
+
+
+If we take any initial population of predator & prey and follow the phase portrait, we see one species staring to dominate, but then prey decreases, so the predator decreases, and we are in a state of equilibrium.
+When x(t) and y(t) are plotted individually versus t, we see that the periodic variation of the predator population y(t) lags slightly behind the prey population x(t).
+
+![image](https://github.com/user-attachments/assets/6b7f6946-24e1-46ca-a68f-c7afbe12f6e9)
+
+Hence it is clear that the population of both predator and prey are not tending towards extinction or over population. Both are in a state of equilibrium.
+
