@@ -175,3 +175,86 @@ In Eq. (3), the scalar coefficient of L is the radial component and the scalar c
 (If we take the Cartesian coordinates instead of polar coordinates, we have tangential and normal components of velocity and acceleration.)
 
 
+
+
+Let **f** be the magnitude of the force **F** acting on a particle, and let this force act toward the center **O**. Then,
+
+$$
+\vec{F} = -f \cdot \vec{L + O(M)}
+$$
+
+According to **Newton’s Second Law**, applying the force in radial and transverse directions, we obtain the following equations:
+
+Radial direction:
+
+$$
+\frac{d^2 r}{dt^2} - r \left( \frac{d\theta}{dt} \right)^2 = -\frac{f}{m} 
+$$
+
+Transverse direction:
+
+$$
+r \frac{d^2 \theta}{dt^2} + 2 \frac{dr}{dt} \frac{d\theta}{dt} = 0
+$$
+
+Now, the core problem is to solve the system of differential equations (4) and (5), which involve two unknown functions 
+$\ r = \phi(t) \$
+and 
+
+$\theta = \varphi(t)\$
+
+. These functions together give the **parametric equations** of the orbit of the moving particle.
+
+Another key goal is to express  **r** in terms of 
+$\theta\$
+, i.e., to find a **polar equation** of the form:
+
+$$
+r = \beta(\theta)
+$$
+
+To do so, we require:
+
+- Initial conditions
+- The form of **f** in Equation (4)
+
+We begin with Equation (5), which notably does **not** include **f**, and derive an important result:
+
+Since 
+$r \neq 0 \$
+, Equation (5) can be rearranged as:
+
+$$
+\frac{1}{r} \frac{d}{dt} \left( r^2 \frac{d\theta}{dt} \right) = 0 
+$$
+
+
+
+From Equation (6), we deduce:
+
+$$
+r^2 \frac{d\theta}{dt} = \text{constant} = h 
+$$
+
+This constant  h is related to the **conservation of angular momentum**. It implies that the **areal velocity** is constant.
+
+### Area Swept in Polar Coordinates
+
+Using the formula for the area in polar coordinates, we observe (as in Fig. 4) that the **shaded area** swept out by the particle moving from 
+$\ (r_1, \theta_1) \$
+at time 
+$\t_1 $ 
+to 
+$\(r, \theta) \$
+at time t is given by:
+
+$$
+A = \frac{1}{2} \int_{\theta_1}^{\theta} [\beta(u)]^2 \, du
+$$
+
+This integral provides the total area swept by the radius vector, where 
+$\ \beta(\theta) \$ 
+is the **polar equation** of the orbit (i.e., 
+$\ r = \beta(\theta) \$
+.
+
