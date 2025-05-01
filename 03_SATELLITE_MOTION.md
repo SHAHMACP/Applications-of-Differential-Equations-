@@ -252,6 +252,59 @@ $$
 A = \frac{1}{2} \int_{\theta_1}^{\theta} [\beta(u)]^2 \, du
 $$
 
+![image](https://github.com/user-attachments/assets/78f7c4d7-0746-49a4-9027-5d2d6f06daf2) area swept out by the radius vector..
+
+![image](https://github.com/user-attachments/assets/243d6057-69f6-4384-b714-4930b1e409c9)
+
+
+
+This areal velocity being constant implies that the area swept out is the same for any equal interval of time, i.e., for any duration 
+$\ t_2 - t_1 \$
+, the area swept by the radius vector remains the same. This leads to the classical result known as the **Law of Areas**.
+
+---
+
+### **Theorem: Law of Areas**
+
+*For a particle moving under a central force, the radius vector drawn from the center of force to the particle sweeps out equal areas in equal intervals of time.*
+
+---
+
+Now, let us **apply this to the planetary motion**, i.e., the motion of a planet around the sun. Consider the system governed by equations:
+
+ Radial direction:
+  $$
+  \frac{d^2 r}{dt^2} - r \left( \frac{d\theta}{dt} \right)^2 = -\frac{f}{m} 
+  $$
+
+ Transverse (angular) direction:
+
+  $$
+  r \frac{d^2 \theta}{dt^2} + 2 \frac{dr}{dt} \frac{d\theta}{dt} = 0
+  $$
+
+
+According to **Newton's Law of Universal Gravitation**, the gravitational force between two particles (like the Sun and a planet) is:
+
+$$
+f = \frac{GMm}{r^2}
+$$
+
+Where:
+-  G  is the universal gravitational constant,
+- M  is the mass of the Sun,
+-  m  is the mass of the planet,
+- r is the distance between the planet and the Sun.
+
+Thus, substituting this into Eq. (4), the radial equation becomes:
+
+$$
+\frac{d^2 r}{dt^2} - r \left( \frac{d\theta}{dt} \right)^2 = -\frac{GM}{r^2}
+$$
+
+(Note:  m  cancels out, which shows that orbital motion does not depend on the mass of the planet.)
+
+
 This integral provides the total area swept by the radius vector, where 
 $\ \beta(\theta) \$ 
 is the **polar equation** of the orbit (i.e., 
