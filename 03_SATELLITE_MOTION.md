@@ -273,6 +273,7 @@ $\ t_2 - t_1 \$
 Now, let us **apply this to the planetary motion**, i.e., the motion of a planet around the sun. Consider the system governed by equations:
 
  Radial direction:
+ 
   $$
   \frac{d^2 r}{dt^2} - r \left( \frac{d\theta}{dt} \right)^2 = -\frac{f}{m} 
   $$
@@ -310,4 +311,99 @@ $\ \beta(\theta) \$
 is the **polar equation** of the orbit (i.e., 
 $\ r = \beta(\theta) \$
 .
+
+For convenience, take k=GM so that 
+![image](https://github.com/user-attachments/assets/2f208b29-13f2-4e6f-8159-4230c2a5691c)
+
+
+To determine the constants A & B, we choose the polar axis so that the moving planet is closest to the origin when 
+$\ \theta=0 \$ 
+
+![image](https://github.com/user-attachments/assets/463a99ca-4498-406f-a184-e6d986171143)
+![image](https://github.com/user-attachments/assets/ef3b19fb-5dfd-4dfa-8278-3deda4900024)
+
+---
+
+## **Kepler’s Laws of Planetary Motion and Newton’s Derivation**
+
+From the equation  
+
+$$
+r = \frac{p}{1 + e \cos \theta}
+$$
+where 
+$\ e = \frac{A h^2}{k} \$ 
+and
+$\ p = \frac{h^2}{k} \$
+, we conclude that the orbit of the planet is a **conic section** with eccentricity e. Since e < 1 for planetary motion, the orbit must be an **ellipse** with the Sun at one of its foci.
+
+### **Kepler’s First Law**  
+*The orbit of every planet is an ellipse with the Sun at one focus.*
+
+---
+
+**Example**:  
+Recurring comets, such as **Halley’s comet**, have **elongated elliptical orbits** with eccentricities just below 1.  
+- Halley’s comet appears approximately every 76 years.  
+- It last appeared in **March 1986** and is expected to return in **2062**.
+
+Objects with **parabolic** or **hyperbolic** orbits theoretically appear only **once**, never to return.  
+This is observed in cloud chamber experiments where atomic particles leave **parabolic or hyperbolic fog tracks**.
+
+---
+
+### **Kepler’s Second Law**  
+*As a planet moves in its orbit, the radius vector from the Sun to the planet sweeps out equal areas in equal intervals of time.*
+
+This is the **Law of Areas**, and it directly follows from the conservation of angular momentum and equation:  
+
+$$
+r^2 \frac{d\theta}{dt} = h = \text{constant}
+$$
+
+---
+
+### **Kepler’s Third Law**  
+*The square of the orbital period T of a planet is directly proportional to the cube of the semi-major axis a of its orbit.*
+
+Mathematically,  
+
+$$
+T^2 = \left( \frac{4\pi^2}{k} \right) a^3
+$$ 
+
+where k = GM, the gravitational parameter, and  
+
+$$
+b^2 = \frac{h^2 a}{k}
+$$
+
+with b being the semi-minor axis.
+
+---
+
+### **Newton’s Contribution**
+
+Kepler discovered his laws **empirically** through lifelong astronomical observations.  
+**Newton**, however, derived these laws **mathematically** from his **law of universal gravitation**:
+
+$$
+F = \frac{GMm}{r^2}
+$$
+
+Thus, Newton’s approach is more general and extends beyond planetary motion to include:
+- **Satellites**,
+- **Comets**,
+- **Meteors**, and
+- Even **subatomic particles** in electric and magnetic fields.
+
+---
+
+### **Special Cases**
+
+- If h = 0: the particle (e.g., a meteor) moves directly towards the center (e.g., crashes into the Sun).
+- If h > 0 and r > 0, then
+  $ \frac{d\theta}{dt} > 0 \$
+  , and the orbit is an **oriented path**, i.e., the planet moves counter-clockwise around the Sun.
+
 
