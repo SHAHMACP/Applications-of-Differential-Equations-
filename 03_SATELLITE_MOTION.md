@@ -331,6 +331,7 @@ From the equation
 $$
 r = \frac{p}{1 + e \cos \theta}
 $$
+
 where 
 $\ e = \frac{A h^2}{k} \$ 
 and
@@ -401,9 +402,10 @@ Thus, Newton’s approach is more general and extends beyond planetary motion to
 
 ### **Special Cases**
 
-- If h = 0: the particle (e.g., a meteor) moves directly towards the center (e.g., crashes into the Sun).
-- If h > 0 and r > 0, then
-  $ \frac{d\theta}{dt} > 0 \$
-  , and the orbit is an **oriented path**, i.e., the planet moves counter-clockwise around the Sun.
+If h = 0: the particle (e.g., a meteor) moves directly towards the center (e.g., crashes into the Sun).
+
+If h > 0 and r > 0, then 
+$\frac{d\theta}{dt} > 0$
+, and the orbit is an **oriented path**, i.e., the planet moves counter-clockwise around the Sun.
 
 
